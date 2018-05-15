@@ -1,0 +1,131 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    background: #999999;
+}
+
+header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9c667+0,f79621+100;Orange+3D+%234 */
+    background: #f9c667; /* Old browsers */
+    background: -moz-linear-gradient(top, #f9c667 0%, #f79621 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f9c667 0%,#f79621 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f9c667 0%,#f79621 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ); /* IE6-9 */
+    height: 50px;
+    width: 100%;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+footer {
+    height:50px;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+#stats {
+        float: none;
+}
+
+#stats div{
+    float: right;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background: #ffffff;
+}
+
+#title {
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 13px;
+    width:20%;
+    float: right;
+}
+
+#addTaskButton {
+    float:left;
+    border-radius: 5px;
+    padding:5px;
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 5px;
+    border: none;
+}
+
+.circle-border {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#newTaskDiv{
+    display: none;
+    background: #ffffff;
+    height: 70px;
+    border-bottom: 1px solid black;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#titleInput {
+    width:200px;
+    float: none;
+    display: inline-block;
+}
+
+.status-button {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.status-button-done {
+    background: #999999;
+}
+
+.editTitleInput {
+    border: none;
+    width:80%;
+    display: inline-block;
+    -webkit-box-shadow: none;
+     box-shadow: none;
+}
+
+.editTitleInput:focus {
+    border: 1px solid black;
+}
+.done-task {
+    color:grey;
+    height: 55px;
+    line-height: 2.428571;
+}
+
+.delete-button {
+    float:left;
+    color:black;
+    cursor: pointer;
+}
+
+.delete-button-pending {
+    padding-top: 6px;
+}
