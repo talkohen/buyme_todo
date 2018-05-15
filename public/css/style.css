@@ -27,7 +27,7 @@ footer {
     background: #ffffff;
     text-align: center;
     line-height: 50px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 #stats {
@@ -36,6 +36,10 @@ footer {
 
 #stats div{
     float: right;
+}
+
+ul {
+    margin-bottom: 50px;
 }
 
 li {
