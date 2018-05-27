@@ -1,6 +1,9 @@
+//Controller for objects array
 App.TasksController = Ember.ArrayController.extend({
-  itemController: 'task',
+  //Specify single object
+    itemController: 'task',
 
+    //Computed values for tasks
     tasksCount: function () {
         return this.get('length');
     }.property('@each.status'),
@@ -11,6 +14,7 @@ App.TasksController = Ember.ArrayController.extend({
         return this.filterBy('status', true).get('length');
     }.property('@each.status'),
 
+    //Action listeners
     actions: {
         addTaskToggle() {
           $("#newTaskDiv").slideToggle( "slow", function() {

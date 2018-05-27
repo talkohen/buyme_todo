@@ -6,13 +6,15 @@ function failure(reason) {
     //alert ("action fail");
 }
 
+//Controller for single object
 App.TaskController = Ember.ObjectController.extend({
 
-
+    //Computed values for task
     isDone: Ember.computed('status', function() {
         return this.get('status') == 1;
     }),
 
+    //Action listeners
     actions: {
         changeTaskStatus (id ,status){
             var newStatus = 0;
